@@ -3,7 +3,79 @@
 @source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
 @source '../../storage/framework/views/*.php';
 
+@custom-variant dark (&:where(.dark, .dark *));
+
 @theme {
-    --font-sans: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
-        'Segoe UI Symbol', 'Noto Color Emoji';
+    --font-sans: 'Archivo', ui-sans-serif, system-ui, sans-serif;
+    --font-display: 'Space Grotesk', ui-sans-serif, system-ui, sans-serif;
+
+    /* Design system: Motion-Driven (design-system/portfolio-cheikh/MASTER.md) */
+    --color-primary: #18181b;
+    --color-on-primary: #ffffff;
+    --color-secondary: #3f3f46;
+    --color-accent: #2563eb;
+    --color-accent-foreground: #ffffff;
+    --color-background: #fafafa;
+    --color-foreground: #09090b;
+    --color-muted: #e8ecf0;
+    --color-muted-foreground: #52525b;
+    --color-border: #e4e4e7;
+    --color-destructive: #dc2626;
+    --color-ring: #18181b;
+}
+
+.dark {
+    --color-primary: #fafafa;
+    --color-on-primary: #09090b;
+    --color-secondary: #a1a1aa;
+    --color-accent: #3b82f6;
+    --color-accent-foreground: #09090b;
+    --color-background: #09090b;
+    --color-foreground: #fafafa;
+    --color-muted: #18181b;
+    --color-muted-foreground: #a1a1aa;
+    --color-border: #27272a;
+    --color-destructive: #f87171;
+    --color-ring: #fafafa;
+}
+
+@layer base {
+    html {
+        scroll-behavior: smooth;
+    }
+
+    body {
+        background-color: var(--color-background);
+        color: var(--color-foreground);
+        transition: background-color 200ms ease, color 200ms ease;
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+        html {
+            scroll-behavior: auto;
+        }
+
+        *,
+        *::before,
+        *::after {
+            animation-duration: 0.01ms !important;
+            animation-iteration-count: 1 !important;
+            transition-duration: 0.01ms !important;
+            scroll-behavior: auto !important;
+        }
+    }
+}
+
+@layer utilities {
+    [data-reveal] {
+        opacity: 0;
+        transform: translateY(24px);
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+        [data-reveal] {
+            opacity: 1;
+            transform: none;
+        }
+    }
 }
