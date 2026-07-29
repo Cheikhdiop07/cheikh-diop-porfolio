@@ -2,7 +2,7 @@
     <div class="mx-auto max-w-6xl px-6 py-12 lg:px-8">
         <div class="flex flex-col items-start justify-between gap-8 md:flex-row md:items-center">
             <div>
-                <p class="font-display text-lg font-semibold">Cheikh Diop<span class="text-accent">.</span></p>
+                <p class="font-display text-lg font-semibold">Cheikh Abdoulaye  Diop<span class="text-accent">.</span></p>
                 <p class="mt-2 max-w-sm text-sm text-secondary">Développeur & Designer UI/UX — je conçois et développe des produits numériques clairs, utilisables et soignés.</p>
             </div>
 
@@ -20,7 +20,7 @@
         </div>
 
         <div class="mt-10 flex flex-col-reverse items-start justify-between gap-4 border-t border-border pt-6 text-sm text-secondary md:flex-row md:items-center">
-            <p>&copy; {{ now()->year }} Cheikh Diop. Tous droits réservés.</p>
+            <p>&copy; {{ now()->year }} Cheikh Abdoulaye  Diop. Tous droits réservés.</p>
             <p>Conçu &amp; développé avec Laravel + Tailwind.</p>
         </div>
     </div>

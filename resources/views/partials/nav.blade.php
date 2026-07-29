@@ -1,7 +1,7 @@
 <header class="sticky top-0 z-40 border-b border-border/70 bg-background/80 backdrop-blur-md">
     <div class="mx-auto flex max-w-6xl items-center justify-between px-6 py-4 lg:px-8">
         <a href="{{ url('/') }}" class="font-display text-lg font-semibold tracking-tight">
-            Cheikh Diop<span class="text-accent">.</span>
+            Cheikh Abdoulaye Diop<span class="text-accent">.</span>
         </a>
 
         <nav class="hidden items-center gap-8 md:flex" aria-label="Navigation principale">
