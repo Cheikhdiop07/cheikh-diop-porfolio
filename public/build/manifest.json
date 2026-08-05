@@ -1,0 +1,85 @@
+{
+  "_archivo-400-normal-Bl602Mgc.woff": {
+    "file": "assets/archivo-400-normal-Bl602Mgc.woff",
+    "src": "_archivo-400-normal-Bl602Mgc.woff"
+  },
+  "_archivo-400-normal-C81ewxNO.woff2": {
+    "file": "assets/archivo-400-normal-C81ewxNO.woff2",
+    "src": "_archivo-400-normal-C81ewxNO.woff2"
+  },
+  "_archivo-500-normal-CGugC8dq.woff2": {
+    "file": "assets/archivo-500-normal-CGugC8dq.woff2",
+    "src": "_archivo-500-normal-CGugC8dq.woff2"
+  },
+  "_archivo-500-normal-pkzA7jw9.woff": {
+    "file": "assets/archivo-500-normal-pkzA7jw9.woff",
+    "src": "_archivo-500-normal-pkzA7jw9.woff"
+  },
+  "_archivo-600-normal-3BBy0ZsW.woff2": {
+    "file": "assets/archivo-600-normal-3BBy0ZsW.woff2",
+    "src": "_archivo-600-normal-3BBy0ZsW.woff2"
+  },
+  "_archivo-600-normal-DwYieO8P.woff": {
+    "file": "assets/archivo-600-normal-DwYieO8P.woff",
+    "src": "_archivo-600-normal-DwYieO8P.woff"
+  },
+  "_archivo-700-normal-D9cHMWGj.woff2": {
+    "file": "assets/archivo-700-normal-D9cHMWGj.woff2",
+    "src": "_archivo-700-normal-D9cHMWGj.woff2"
+  },
+  "_archivo-700-normal-lT5TFe7H.woff": {
+    "file": "assets/archivo-700-normal-lT5TFe7H.woff",
+    "src": "_archivo-700-normal-lT5TFe7H.woff"
+  },
+  "_fonts-CIFejdHz.css": {
+    "file": "assets/fonts-CIFejdHz.css",
+    "src": "_fonts-CIFejdHz.css"
+  },
+  "_space-grotesk-400-normal-BnQMeOim.woff": {
+    "file": "assets/space-grotesk-400-normal-BnQMeOim.woff",
+    "src": "_space-grotesk-400-normal-BnQMeOim.woff"
+  },
+  "_space-grotesk-400-normal-CJ-V5oYT.woff2": {
+    "file": "assets/space-grotesk-400-normal-CJ-V5oYT.woff2",
+    "src": "_space-grotesk-400-normal-CJ-V5oYT.woff2"
+  },
+  "_space-grotesk-500-normal-CNSSEhBt.woff": {
+    "file": "assets/space-grotesk-500-normal-CNSSEhBt.woff",
+    "src": "_space-grotesk-500-normal-CNSSEhBt.woff"
+  },
+  "_space-grotesk-500-normal-lFbtlQH6.woff2": {
+    "file": "assets/space-grotesk-500-normal-lFbtlQH6.woff2",
+    "src": "_space-grotesk-500-normal-lFbtlQH6.woff2"
+  },
+  "_space-grotesk-600-normal-BflQw4A9.woff": {
+    "file": "assets/space-grotesk-600-normal-BflQw4A9.woff",
+    "src": "_space-grotesk-600-normal-BflQw4A9.woff"
+  },
+  "_space-grotesk-600-normal-DjKNqYRj.woff2": {
+    "file": "assets/space-grotesk-600-normal-DjKNqYRj.woff2",
+    "src": "_space-grotesk-600-normal-DjKNqYRj.woff2"
+  },
+  "_space-grotesk-700-normal-CwsQ-cCU.woff": {
+    "file": "assets/space-grotesk-700-normal-CwsQ-cCU.woff",
+    "src": "_space-grotesk-700-normal-CwsQ-cCU.woff"
+  },
+  "_space-grotesk-700-normal-RjhwGPKo.woff2": {
+    "file": "assets/space-grotesk-700-normal-RjhwGPKo.woff2",
+    "src": "_space-grotesk-700-normal-RjhwGPKo.woff2"
+  },
+  "resources/css/app.css": {
+    "file": "assets/app-Cl-XiBph.css",
+    "name": "app",
+    "names": [
+      "app.css"
+    ],
+    "src": "resources/css/app.css",
+    "isEntry": true
+  },
+  "resources/js/app.js": {
+    "file": "assets/app-D4k8pARw.js",
+    "name": "app",
+    "src": "resources/js/app.js",
+    "isEntry": true
+  }
+}
