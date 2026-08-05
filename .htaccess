@@ -1,0 +1,25 @@
+# Root-level shim: lets this repo be served with its own folder as the
+# document root (no /public sub-root available), by transparently serving
+# static files out of /public and routing everything else through index.php.
+
+<FilesMatch "^\.env">
+    Require all denied
+</FilesMatch>
+
+<FilesMatch "^(composer\.(json|lock)|package(-lock)?\.json|artisan|Dockerfile|render\.yaml)$">
+    Require all denied
+</FilesMatch>
+
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+
+    # Serve an existing file from /public as-is (css, js, fonts, images...)
+    RewriteCond %{REQUEST_URI} !^/public/
+    RewriteCond %{DOCUMENT_ROOT}/public%{REQUEST_URI} -f
+    RewriteRule ^(.*)$ public/$1 [L]
+
+    # Everything else goes through the front controller
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^ index.php [L]
+</IfModule>
