@@ -84,12 +84,11 @@
             <div data-reveal>
                 <p class="text-sm font-medium uppercase tracking-wider text-accent">À propos</p>
                 <h2 class="mt-3 font-display text-3xl font-semibold tracking-tight sm:text-4xl">Bonjour, je suis Cheikh Abdoulaye Diop.</h2>
-
-                <img
-                    src="{{ asset('images/cheikh-diop.jpg') }}"
-                    alt="Portrait de Cheikh Abdoulaye Diop"
-                    class="mt-8 aspect-[4/5] w-full max-w-xs rounded-2xl border border-border object-cover object-top"
-                >
+<img
+    src="{{ asset('images/cheikh-diop.jpg') }}"
+    alt="Portrait de Cheikh Abdoulaye Diop"
+    class="mt-10 aspect-[5/5] w-full max-w-xs rounded-2xl border border-border object-contain object-top scale-100"
+>
             </div>
 
             <div data-reveal class="space-y-6 text-lg leading-relaxed text-secondary">
